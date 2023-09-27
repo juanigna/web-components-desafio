@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #13171c;
+  color: #fff;
+  padding: 37px 80px;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+}
+
+/* Presentation */
+
+.presentation {
+  background-color: #13171c;
+  padding: 2em 0;
+}
+
+.presentation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.presentation-left-title {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.presentation-left-title span {
+  color: #00adb5;
+}
+
+.presentation-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7em;
+}
+
+/* Biography */
+
+.biography {
+  background-color: #192130;
+}
+
+.biography-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 5em;
+}
+
+.biography-left-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.biography-left-text {
+  max-width: 400px;
+}
+
+.biography-container img {
+  max-width: 500px;
+  background-size: contain;
+}
