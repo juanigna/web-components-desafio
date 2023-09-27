@@ -5,6 +5,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -23,7 +24,7 @@ header {
 
 .presentation {
   background-color: #13171c;
-  padding: 2em 0;
+    padding: 5em 0;
 }
 
 .presentation-container {
@@ -60,7 +61,7 @@ header {
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  padding: 5em;
+  padding: 5em 0;
 }
 
 .biography-left-title {
@@ -76,6 +77,3 @@ header {
   max-width: 500px;
   background-size: contain;
 }
-
-
-/* Contact */

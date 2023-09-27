@@ -2,6 +2,7 @@
 .contact{
     background-color: #13171c;
     color: #fff;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.10);
 }
 
 .contact-container{
@@ -32,7 +33,7 @@
 }
 
 .form-input {
-    padding: 6px 156px 6px 24px;
+    padding: 12px 156px 12px 24px;
     background: rgba(57, 62, 70, 0.50);  
     border: none;
     border-radius: 16px; 
@@ -44,6 +45,7 @@
     border: none;
     border-radius: 16px; 
     color: #fff;
+    padding: 30px 0;
 }
 
 .name{

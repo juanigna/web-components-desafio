@@ -19,20 +19,21 @@
 .services-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap:2em
 }
 
 .services-card {
     max-width: 360px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     background-color: rgba(57, 62, 70, 0.50);
-    gap: 1em;
+    padding: 10px 10px;
+    gap: 20px;
     border-radius: 16px; 
-    padding: 1em;
+    height: 522px;
 }
 
 .services-card h3 {
