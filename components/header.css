@@ -14,3 +14,51 @@
   gap: 2em;
   font-weight: 300;
 }
+
+.nav-right-side-menu-container{
+  display: none;
+}
+
+.nav-right-side-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-right-side-items{
+    display: none;
+  }
+
+  .nav-right-side-menu-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav-right-side-items-mobile-item {
+    font-size: 2rem;
+  }
+
+  .nav-right-side-menu-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .nav-right-side-items-mobile{
+    list-style: none;
+  }
+
+  .nav-right-side-menu{
+    display: block;
+  }
+}
