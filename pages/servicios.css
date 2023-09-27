@@ -1,0 +1,40 @@
+
+.services{
+    background-color: #13171c;
+    background-image: url('../assets/doodle-items.png');
+    background-size: contain;
+    background-repeat: repeat;
+    color: #fff;
+}
+
+.services-title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.services-title span{
+    color: #00adb5;
+}
+
+.services-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2em
+}
+
+.services-card {
+    max-width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(57, 62, 70, 0.50);
+    gap: 1em;
+    border-radius: 16px; 
+    padding: 1em;
+}
+
+.services-card h3 {
+    font-size: 1.5rem;
+}
