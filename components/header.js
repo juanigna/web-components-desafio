@@ -1,14 +1,14 @@
-function headerComponent(element) {
+function headerComponent() {
     const componentMain = document.createElement('nav')
     componentMain.className = 'nav-container'
     componentMain.innerHTML = `
         <div class="nav-left-side">
-            <h2>Tu logo</h2>
+            <h2><a href="index.html">Tu Logo</a></h2>
         </div>
         <div class="nav-right-side">
             <ul class="nav-right-side-items">
                 <li>Portfolio</li>
-                <li>Servicios</li>
+                <li><a href="servicios.html">Servicios</a></li>
                 <li>Contacto</li>
             </ul>
             <img src="../assets/menu.svg" class="nav-right-side-menu"/>
@@ -52,7 +52,8 @@ function headerComponent(element) {
     mediaQuery.addEventListener("change", handleViewportChange); // Add listener
     handleViewportChange(mediaQuery);
 
-
-    element.appendChild(componentMain)
+    const header = document.querySelector('header')
+    header.appendChild(componentMain)
 }
 
+headerComponent()

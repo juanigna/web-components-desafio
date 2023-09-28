@@ -1,4 +1,4 @@
-function footerComponent(element) {
+function footerComponent() {
     const mainComponent = document.createElement('div')
     mainComponent.innerHTML = `
         <div class="container footer-container">
@@ -33,6 +33,8 @@ function footerComponent(element) {
         <p class="footer-text">©2022 - https://apx.school</p>
     </div>
     `
-
-    element.appendChild(mainComponent)
+    const footerContainer = document.querySelector('.footer')
+    footerContainer.appendChild(mainComponent)
 }
+
+footerComponent()

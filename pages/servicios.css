@@ -5,6 +5,7 @@
     background-size: contain;
     background-repeat: repeat;
     color: #fff;
+    text-align: center;
 }
 
 .services-title {
@@ -20,7 +21,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:2em
+    gap:2em;
+    
 }
 
 .services-card {
@@ -38,4 +40,52 @@
 
 .services-card h3 {
     font-size: 1.5rem;
+}
+
+
+/* Presentation */
+
+.presentation {
+    background-color: #13171c;
+      padding: 5em 0;
+  }
+  
+  .presentation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .presentation-left-title {
+    color: #fff;
+    font-size: 3rem;
+  }
+  
+  .presentation-left-title span {
+    color: #00adb5;
+  }
+  
+  .presentation-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;
+  }
+
+/* Services */
+
+.services-page-container{
+    padding:  5em 0;
+}
+
+.services-page-text{
+    font-size: 1.5rem;
+}
+
+.services-see-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
 }

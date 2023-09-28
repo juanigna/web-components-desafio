@@ -1,4 +1,4 @@
-function servicesComponent(element) {
+function servicesComponent() {
     getServices().then(data => {
         data.map(service => {
             const card = document.createElement('div')
@@ -10,7 +10,8 @@ function servicesComponent(element) {
                 </div>
             `
 
-            element.appendChild(card)
+            const servicesContainer = document.querySelector('.services-container')
+            servicesContainer.appendChild(card)
         })
 
     })
@@ -38,3 +39,6 @@ function getServices() {
         // return [obj]
     })
 }
+
+
+servicesComponent()

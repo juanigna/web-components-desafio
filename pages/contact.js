@@ -1,4 +1,4 @@
-function contactComponent(element) {
+function contactComponent() {
     const mainComponent = document.createElement('div')
     mainComponent.innerHTML = `
     <div class="container contact-container">
@@ -22,8 +22,8 @@ function contactComponent(element) {
     `
 
     const form = mainComponent.querySelector('.form-container')
-
-    element.appendChild(mainComponent)
+    const contactContainer = document.querySelector('.contact')
+    contactContainer.appendChild(mainComponent)
     sendEmail(form)
 }
 
@@ -56,6 +56,7 @@ async function sendEmail(form) {
 }
 
 function main() {
+    contactComponent()
     sendEmail()
 }
 

@@ -1,5 +1,12 @@
 /* Nav */
 
+header {
+  background-color: #13171c;
+  color: #fff;
+  padding: 37px 80px;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
