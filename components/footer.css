@@ -47,3 +47,15 @@
   .footer-text{
     margin-bottom: 2em;
   }
+
+
+  @media screen and (max-width: 768px) {
+    .footer-logos-up{
+      flex-direction: column;
+      gap: 2em;
+    }
+
+    .footer-logo{
+      margin: 0;
+    }
+  }

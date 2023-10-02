@@ -16,7 +16,7 @@ function headerComponent() {
                 <img src="../assets/close.svg" class="nav-right-side-menu-close"/>
                 <ul class="nav-right-side-items-mobile">
                     <li class="nav-right-side-items-mobile-item">Portfolio</li>
-                    <li class="nav-right-side-items-mobile-item">Servicios</li>
+                    <li class="nav-right-side-items-mobile-item"><a href="servicios.html">Servicios</a></li>
                     <li class="nav-right-side-items-mobile-item">Contacto</li>
                 </ul>
             </div>

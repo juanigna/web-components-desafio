@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -75,4 +75,38 @@ body {
 .biography-container img {
   max-width: 500px;
   background-size: contain;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  /*  PRESENTATION  */
+
+  .presentation-container{
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+  }
+
+  .presentation-left-title{
+    max-width: 158px;
+    text-align: center;
+  }
+
+  .shadow-image{
+    display: none;
+  }
+
+  /* BIOGRAPHY */
+
+  .biography-container{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .biography-container img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
 }

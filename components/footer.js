@@ -5,7 +5,7 @@ function footerComponent() {
         <div class="footer-logo">
             <h4>Tu logo</h4>
         </div>
-        <div class="footer-logos">
+        <div class="footer-logos footer-logos-up">
             <div class="footer-logo">
                 <img src="./assets/home.png" />
                 <p>Home</p>
