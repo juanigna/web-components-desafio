@@ -7,7 +7,7 @@ function headerComponent() {
         </div>
         <div class="nav-right-side">
             <ul class="nav-right-side-items">
-                <li>Portfolio</li>
+                <li><a href="portafolio.html">Portafolio</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
                 <li>Contacto</li>
             </ul>
@@ -15,7 +15,7 @@ function headerComponent() {
             <div class="nav-right-side-menu-container">
                 <img src="../assets/close.svg" class="nav-right-side-menu-close"/>
                 <ul class="nav-right-side-items-mobile">
-                    <li class="nav-right-side-items-mobile-item">Portfolio</li>
+                    <li class="nav-right-side-items-mobile-item"><a href="portafolio.html">Portafolio</a></li>
                     <li class="nav-right-side-items-mobile-item"><a href="servicios.html">Servicios</a></li>
                     <li class="nav-right-side-items-mobile-item">Contacto</li>
                 </ul>
